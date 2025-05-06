@@ -312,4 +312,57 @@ section:target {
 }
 
 
+/* Mobile and Tablet Viewport (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  .about-box, #plans, #contact {
+    padding: 15px;
+    font-size: 1rem;
+  }
+
+  .plan-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .gallery-container {
+    padding: 10px;
+  }
+
+  .responsive-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-wrapper {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .image-wrapper img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 10px;
+  }
+}
 
